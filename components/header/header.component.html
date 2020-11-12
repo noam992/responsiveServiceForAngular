@@ -1,0 +1,10 @@
+<span>Screen size is: </span>
+<span><strong>{{screenSize}}</strong></span>
+
+<p>Using screen size service</p>
+<div class="container" [style.background-color]="screenSize === 'xs' ? 'rgb(0, 199, 0)' : screenSize === 'sm' ? ' rgb(255, 166, 0)' : ' rgb(43, 43, 255)'">
+    <div class="screen-size-box">{{screenSize}}</div>
+</div>
+
+
+
